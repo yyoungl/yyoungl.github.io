@@ -5,5 +5,5 @@
 layout: default
 title: yyoungl.log
 icon: fa-home
-nav-order: 0
+nav-order: 1
 ---
