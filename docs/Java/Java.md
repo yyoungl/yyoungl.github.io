@@ -7,5 +7,5 @@ layout: default
 title: Java
 nav_order: 200
 description: "자바"
-permalink: /java
+permalink: /
 ---

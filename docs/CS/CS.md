@@ -7,5 +7,5 @@ layout: default
 title: CS
 nav_order: 200
 description: "Computer Science"
-permalink: /computer-science
+permalink: /
 ---

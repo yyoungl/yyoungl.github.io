@@ -7,5 +7,5 @@ layout: default
 title: dev-diary
 nav_order: 1
 description: "개발 일기"
-permalink: /dev-diary
+permalink: /
 ---
