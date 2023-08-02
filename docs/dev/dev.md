@@ -7,5 +7,6 @@ layout: default
 title: dev-diary
 nav_order: 1
 description: "개발 일기"
+has_children: true
 permalink: /
 ---

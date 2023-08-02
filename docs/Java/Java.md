@@ -7,5 +7,6 @@ layout: default
 title: Java
 nav_order: 200
 description: "자바"
+has_children: true
 permalink: /
 ---
