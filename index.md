@@ -69,7 +69,7 @@ permalink: /
 - 프론트엔드 Javascript React.js
 - 백엔드 JavaScript Node.js
 - 데이터 분석 Python pandas, numpy
-- ai & 알고리즘 스터디 [Github](https://github.com/snghyun331/elice-algo-ai-study)
+- AI & 알고리즘 스터디 [Github](https://github.com/snghyun331/elice-algo-ai-study)
 
 ## 경력사항
 
