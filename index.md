@@ -35,7 +35,6 @@ permalink: /
 
 ## 자격증
 
-|
 | TOEIC 960 | 한국TOEIC위원회 | 2022.01.23 |
 | OPIC IH | ACTFL | 2021.08.22 |
 
