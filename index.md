@@ -28,9 +28,11 @@ permalink: /
 - JavaScript
   - React.js vite/CRUD
   - Vue.js
+  - Bootstrap, tailwind
 - HTML/CSS
 - JAVA
 - Spring
+- Python
 - SQL Database
 
 ## 자격증
@@ -50,9 +52,7 @@ permalink: /
 - Epidermal & Biocompatible Wireless System (2019.06~2019.12)
 - 제54대 공과대학생회 (2017.01~2018.02)
 
-### 삼성 청년 소프트웨어 아카데미 SSAFY 10기
-
-[비전공 JAVA]
+### 삼성 청년 소프트웨어 아카데미 SSAFY 10기 (2023.07~)
 
 - JAVA Spring
 - HTML/CSS
@@ -61,7 +61,7 @@ permalink: /
 - 금융권 & CS 스터디
 - 알고리즘 스터디 [Github](https://github.com/yyoungl/SSAFY10-Class8-Algo)
 
-### Elice AI 트랙 7기
+### Elice AI 트랙 7기 (2023.02~2023.06)
 
 - 백투더퓨처::개발자 포트폴리오 커뮤니티 웹 서비스
 - 오늘채식완료::데이터 분석 기반 채식 장려 커뮤니티 웹 서비스
