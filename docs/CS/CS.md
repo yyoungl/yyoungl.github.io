@@ -8,5 +8,5 @@ title: CS
 nav_order: 200
 description: "Computer Science"
 has_children: true
-permalink: /
+permalink: /docs/cs
 ---

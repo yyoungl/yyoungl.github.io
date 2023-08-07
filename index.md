@@ -5,7 +5,7 @@
 layout: default
 title: yyoungl.log
 nav_order: 1
-description: yyoungl dev log
+description: yyoungl 1dev log
 permalink: /
 ---
 

@@ -8,5 +8,5 @@ title: Java
 nav_order: 100
 description: "자바"
 has_children: true
-permalink: /
+permalink: /docs/java
 ---
