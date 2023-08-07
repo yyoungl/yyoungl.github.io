@@ -6,7 +6,7 @@ layout: default
 title: 엘리스 AI트랙 7기 1차 프로젝트
 nav_order: 3
 description: 포트폴리오 공유 웹 서비스 <백투더퓨처>
-parent: dev
+parent: dev-diary
 ---
 
 # 엘리스 AI트랙 7기 1차 프로젝트: 포트폴리오 공유 웹 서비스 <백투더퓨처>
