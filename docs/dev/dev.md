@@ -8,5 +8,5 @@ title: dev-diary
 nav_order: 2
 description: "개발 일기"
 has_children: true
-permalink: /
+permalink: /docs/dev
 ---
