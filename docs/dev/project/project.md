@@ -5,7 +5,7 @@
 
 layout: default
 title: project
-nav_order: 2
+nav_order: 3
 description: "프로젝트"
 has_children: true
 parent: dev
