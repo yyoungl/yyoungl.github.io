@@ -6,8 +6,6 @@ description: Java 관통 프로젝트 <영상 관리 프로그램>
 parent: dev-diary
 ---
 
-# Java 관통
-
 # Java 관통 프로젝트: 영상 관리 프로그램
 
 **개발 기간** 2023/08/04
