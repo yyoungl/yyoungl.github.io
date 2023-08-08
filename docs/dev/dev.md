@@ -4,9 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: dev-diary
+title: 프로젝트
 nav_order: 2
-description: "개발 일기"
+description: "프로젝트"
 has_children: true
 permalink: /docs/dev
 ---

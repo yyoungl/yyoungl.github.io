@@ -75,7 +75,5 @@ permalink: /
 
 | 인천국제공항공사 | 인턴 | 건설기획처 공항계획팀 | 2022.06.20~2022.09.19 |
 
-{: .fs-9 }
-yyoungl's git Description
 {: .fs-6 .fw-300 }
-[View it on GitHub](https://github.com/yyoungl){: .btn .fs-5 .mb-4 .mb-md-0 }
+[yyoungl's Github](https://github.com/yyoungl){: .btn .fs-5 .mb-4 .mb-md-0 }

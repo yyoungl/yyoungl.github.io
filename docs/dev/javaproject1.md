@@ -3,22 +3,32 @@ layout: default
 title: Java 관통 프로젝트
 nav_order: 4
 description: Java 관통 프로젝트 <영상 관리 프로그램>
-parent: dev-diary
+parent: 프로젝트
 ---
 
 # Java 관통 프로젝트: 영상 관리 프로그램
+
+{: .fs-6 .fw-300 }
+[Github](https://github.com/yyoungl/java1){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 **개발 기간** 2023/08/04
 
 **개발 인원** 2명
 
-[yyoungl - Overview](https://github.com/yyoungl)
-
-[jooooooowon - Overview](https://github.com/jooooooowon)
-
-**Github** ‣
+[이영현](https://github.com/yyoungl) [이주원](https://github.com/jooooooowon)
 
 첫 프로젝트를 했다!! json 데이터를 바탕으로 영상 목록을 보여주고, 메뉴를 선택하면 댓글과 구체적인 정보를 보여 주는 것이다. java 에서 배운 것을 기반으로 하는 프로젝트였기 때문에 ui는 console 창에서 간단히 구현했다.
+
+### 프로젝트 개요
+
+1. 비디오 및 해당 비디오 리뷰 관리
+2. 회원가입 유저 목록 관리
+
+### 프로젝트 목표
+
+1. MVC 패턴 기반 프로그램 구현
+2. 싱글톤 기반 데이터 관리 메서드 구현
+3. json 파일 데이터 자료 구조에 담기 및 관리
 
 ### 구현 과정
 
@@ -33,7 +43,17 @@ parent: dev-diary
 
    1번 동영상에 1-1 댓글이 있었는데, 1-2 댓글을 추가하면 json에 1+1-1 , 1+1-1, 1-2 가 추가된 식. Review 인스턴스를 활용해서 데이터 관리를 하라는 거였다….
 
-### 프로젝트 구조
+### 느낀 점
+
+java 프로젝트 구조에 대해 조금 더 알 수 있었고, 개발 방법론에서 MVC의 개념을 알게 되었다! 역시나 콘솔에서 user 사용 흐름에 맞게 ui 로직을 구성하는 것은 어려웠다. 회원가입 -> 로그인 -> 영상 목록 -> 영상 선택...
+
+json 파일을 쓰고 읽어오는 것이 어려웠지만 언젠가 해야 하는 마음의 숙제로 가지고 있었기 때문에 직접 해 볼 수 있는 기회였다.
+
+### 더 해볼만한 것
+
+영상 detail 화면에서 getUrl 메소드를 활용하여 링크에 해당하는 인터넷 창을 띄워 동영상을 보여주는 기능 추가
+
+### 프로젝트 구조 및 기능 구현 화면
 
 ![프로젝트 구조](https://user-images.githubusercontent.com/127117707/259029623-a2ad6f69-2165-4f11-bb44-9c8036a7a4b5.png)
 
@@ -54,13 +74,3 @@ parent: dev-diary
 ### 리뷰 관리
 
 ![기본 - 리뷰 관리.PNG](https://user-images.githubusercontent.com/127117707/259023022-9a9f67df-1835-4439-bcc8-275b9fef469f.PNG)
-
-### 느낀 점
-
-java 프로젝트 구조에 대해 조금 더 알 수 있었고, 개발 방법론에서 MVC의 개념을 알게 되었다! 역시나 콘솔에서 user 사용 흐름에 맞게 ui 로직을 구성하는 것은 어려웠다.
-
-json 파일을 쓰고 읽어오는 것이 어려웠지만... 재미있었다.
-
-### 더 해볼만한 것
-
-영상 detail 화면에서 getUrl 메소드를 활용하여 링크에 해당하는 인터넷 창을 띄워 동영상을 보여주는 기능 추가

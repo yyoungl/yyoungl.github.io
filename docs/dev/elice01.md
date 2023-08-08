@@ -1,12 +1,9 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: 엘리스 AI 1차 프로젝트
 nav_order: 3
 description: 포트폴리오 공유 웹 서비스 <백투더퓨처>
-parent: dev-diary
+parent: 프로젝트
 ---
 
 # 엘리스 AI트랙 7기 1차 프로젝트: 포트폴리오 공유 웹 서비스 <백투더퓨처>
