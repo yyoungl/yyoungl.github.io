@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 프로그래머스 Lv.2 타겟 넘버 Java
+title: 프로그래머스2 타겟 넘버 Java
 nav_order: 2101
 description:
 parent: Algorithm Problems
