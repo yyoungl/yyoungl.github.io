@@ -4,9 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: CS
-nav_order: 1000
-description: "Computer Science"
+title: Java 언어
+nav_order: 101
+description: "자바"
 has_children: true
-permalink: /docs/cs
+permalink: /docs/java/language
 ---
