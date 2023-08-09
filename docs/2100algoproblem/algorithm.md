@@ -8,5 +8,5 @@ title: Algorithm Problems
 nav_order: 2100
 description: "알고리즘 문제"
 has_children: true
-permalink: /docs/algorithm-problem
+permalink: /docs/2100algoproblem
 ---

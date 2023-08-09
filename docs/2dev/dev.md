@@ -8,5 +8,5 @@ title: Project
 nav_order: 2
 description: "프로젝트"
 has_children: true
-permalink: /docs/dev
+permalink: /docs/2dev
 ---

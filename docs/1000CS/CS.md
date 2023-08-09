@@ -4,9 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Algorithm
-nav_order: 2000
-description: "알고리즘"
+title: CS
+nav_order: 1000
+description: "Computer Science"
 has_children: true
-permalink: /docs/algorithm
+permalink: /docs/1000cs
 ---
