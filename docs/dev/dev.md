@@ -4,7 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: 프로젝트
+title: Project
 nav_order: 2
 description: "프로젝트"
 has_children: true

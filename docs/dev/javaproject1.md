@@ -3,7 +3,7 @@ layout: default
 title: Java 관통 프로젝트
 nav_order: 4
 description: Java 관통 프로젝트 <영상 관리 프로그램>
-parent: 프로젝트
+parent: Project
 ---
 
 # Java 관통 프로젝트: 영상 관리 프로그램
