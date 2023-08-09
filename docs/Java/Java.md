@@ -6,7 +6,7 @@
 layout: default
 title: Java
 nav_order: 100
-description: "자바"
+description: "Java 관련 언어 학습, tool"
 has_children: true
 permalink: /docs/java
 ---

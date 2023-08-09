@@ -6,7 +6,8 @@
 layout: default
 title: Java 언어
 nav_order: 101
-description: "자바"
+description: "Java 언어 학습"
 has_children: true
+parent: Java
 permalink: /docs/java/language
 ---
