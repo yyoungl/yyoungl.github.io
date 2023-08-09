@@ -10,3 +10,5 @@ description: "Java 관련 언어 학습, tool"
 has_children: true
 permalink: /docs/java
 ---
+
+JAVA 기본 문법 및 객체지향 프로그래밍 학습 내용을 담습니다.
