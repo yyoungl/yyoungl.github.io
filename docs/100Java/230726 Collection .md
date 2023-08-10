@@ -51,13 +51,13 @@ parent: Java
 | --------- | ------------------------------------------- |
 | List      | 순서가 있는 데이터의 집합, 데이터 중복 가능 |
 
-ex) 일렬로 줄 서기
+ex 일렬로 줄 서기
 ArrayList, LinkedList, Vector |
 | Set | 순서를 유지하지 않는 데이터의 집합, 데이터 중복 불가
-ex) 로또 당첨 번호
+ex 로또 당첨 번호
 HashSet, TreeSet… |
 | Map | key와 value의 쌍으로 데이터를 관리하는 집합, key의 중복 불가, value는 중복 가능
-ex) 속성 - 값
+ex 속성 - 값
 HashMap, TreeMap |
 | Queue | 지하철, 버스를 탈 때 대기줄과 같이 들어온 순서대로 나가는 자료구조
 LinkedList |
@@ -218,7 +218,7 @@ System.out.println(names);
 - `V get(Object key)` 데이터 추출
 - `V remove(K key)` 키의 값을 지우고 반환, 없다면 `null`을 반환
 - `boolean containsKey(Object key)` 특정한 key 포함 여부
-- `void putAll(Map<K key, V value> m`) 기존 콜렉션 데이터 추가
+- `void putAll(Map<K key, V value> m)` 기존 콜렉션 데이터 추가
 - `Set<Map.Entry<K, V>> entrySet()`
   - (key와 value) 쌍을 표현하는 Map, Entry 집합을 반환
 
@@ -233,7 +233,7 @@ System.out.println(names);
 - `boolean offfer(E e)` 데이터를 추가
 - `E peek()` 가장 앞에 있는 데이터 조회
 - `E poll()` 가장 앞에 있는 데이터 빼내기
-- `boolean isEmpty(`) 큐가 비어 있는지 여부
+- `boolean isEmpty()` 큐가 비어 있는지 여부
 
 # Stack
 
@@ -270,7 +270,7 @@ public interface Comparable<T> {
 }
 ```
 
-ex) 숫자를 기준으로 기본 `오름차순` 정렬인데, 예를 들어 `56, 20` 두 숫자 56 - 20 > 0 일 경우 자리 바꾸기
+ex 숫자를 기준으로 기본 `오름차순` 정렬인데, 예를 들어 `56, 20` 두 숫자 56 - 20 > 0 일 경우 자리 바꾸기
 
 ### Comparator의 활용
 
