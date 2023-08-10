@@ -1,2 +1,2 @@
 # yyoungl.github.io
-Portfolio
+[yyoungl.log](https://yyoungl.github.io)
