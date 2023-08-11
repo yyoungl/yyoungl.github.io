@@ -8,7 +8,6 @@ parent: Java
 
 # 230728 I/O와 Stream, Serialization
 
-pdf: 230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/10%25EA%25B8%25B0\_%25EC%259E%2590%25EB%25B0%2594%25EB%25B9%2584%25EC%25A0%2584%25EA%25B3%25B5_Java_day10_0728.pdf
 생성 일시: 2023년 7월 28일 오전 8:48
 
 - I/O와 Stream
@@ -30,57 +29,57 @@ pdf: 230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543
 - 물흐름과 같이 단방향으로만 통신 가능
 - 하나의 스트림을 이용하여 입력과 출력 처리 불가능
 
-![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled.png)
+![IOStream](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/19cea8df-3dc4-4340-8db3-0faab97862ff)
 
 ## Stream 종류
 
-![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%201.png)
+![IOStream 1](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/b2988d70-df98-4a77-ab92-593edb9d8588)
 
 ## 바이트 스트림 (byte stream)
 
 - 바이트 단위로 출력
 - 주로 이진데이터를 읽고 쓰기 위해 사용
 
-![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%202.png)
+![IOStream 2](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/718f032d-27d3-4099-9e64-84fb8074d602)
 
 - **Input Stream**
-  | 메서드 명                                      | 선언부와 설명                                                                        |
+  | 메서드 명 | 선언부와 설명 |
   | ---------------------------------------------- | ------------------------------------------------------------------------------------ |
-  | public abstract int read()                     | byte 하나를 읽어서 int로 반환한다                                                    |
-  | 더 이상 읽을 값이 없으면 -1을 리턴한다         |
-  | public int read(byte b[])                      | 데이터를 읽어서 b를 채우고 읽은 바이트의 개수를 리턴한다                             |
+  | public abstract int read() | byte 하나를 읽어서 int로 반환한다 |
+  | 더 이상 읽을 값이 없으면 -1을 리턴한다 |
+  | public int read(byte b[]) | 데이터를 읽어서 b를 채우고 읽은 바이트의 개수를 리턴한다 |
   | public int read(byte b[], int offset, int len) | 최대 len만큼 데이터를 읽어서 b의 offset부터 b에 저장하고 읽은 바이트 개수를 리턴한다 |
-  | public void close()                            | 스트림을 종료해서 자원을 반납한다                                                    |
+  | public void close() | 스트림을 종료해서 자원을 반납한다 |
 
 ## 문자 스트림 (character stream)
 
 - 문자 단위로 주고받을 때
 - **Reader**
-  | 메서드 명                                            | 선언부와 설명                                                                         |
+  | 메서드 명 | 선언부와 설명 |
   | ---------------------------------------------------- | ------------------------------------------------------------------------------------- |
-  | public int read()                                    | 문자 하나를 읽어서 int로 반환한다                                                     |
-  | 더 이상 읽을 값이 없으면 -1을 리턴한다               |
-  | public int read(char[] c)                            | 데이터를 읽어서 배열 c를 채우고 읽어온 개수 또는 -1을 반환한다                        |
+  | public int read() | 문자 하나를 읽어서 int로 반환한다 |
+  | 더 이상 읽을 값이 없으면 -1을 리턴한다 |
+  | public int read(char[] c) | 데이터를 읽어서 배열 c를 채우고 읽어온 개수 또는 -1을 반환한다 |
   | abstract public int read(char[] c, int off, int len) | 최대 len만큼 데이터를 읽어서 배열 c의 off 위치부터 저장하고 읽은 char 개수를 리턴한다 |
-  | public int read(CharBuffer target)                   | 데이터를 읽어서 target에 저장한다                                                     |
-  | public void close()                                  | 스트림을 종료해서 자원을 반납한다                                                     |
+  | public int read(CharBuffer target) | 데이터를 읽어서 target에 저장한다 |
+  | public void close() | 스트림을 종료해서 자원을 반납한다 |
 - **Writer**
-  | 메서드 명                                              | 선언부와 설명                                                      |
+  | 메서드 명 | 선언부와 설명 |
   | ------------------------------------------------------ | ------------------------------------------------------------------ |
-  | public void write(int b)                               | b의 내용을 char로 출력한다                                         |
-  | public void write(char[] c)                            | 주어진 배열 c에 저장된 모든 내용을 출력한다                        |
+  | public void write(int b) | b의 내용을 char로 출력한다 |
+  | public void write(char[] c) | 주어진 배열 c에 저장된 모든 내용을 출력한다 |
   | abstract public void write(char[] c, int off, int len) | 주어진 배열 c에 저장된 내용 중에서 off부터 len 길이만큼만 출력한다 |
-  | public void write(Strgin str)                          | 주어진 문자열 str을 출력한다                                       |
-  | public void write(String str, int off, int len)        | 주어진 문자열의 일부를 출력한다                                    |
-  | abstract public void flush()                           | 버퍼가 있는 스트림에서 버퍼의 내용을 출력하고 버퍼를 비운다        |
-  | abstract public void close()                           | 스트림을 종료해서 자원을 반납한다                                  |
-  | close()는 내부적으로 flush()를 호출한다                |
+  | public void write(Strgin str) | 주어진 문자열 str을 출력한다 |
+  | public void write(String str, int off, int len) | 주어진 문자열의 일부를 출력한다 |
+  | abstract public void flush() | 버퍼가 있는 스트림에서 버퍼의 내용을 출력하고 버퍼를 비운다 |
+  | abstract public void close() | 스트림을 종료해서 자원을 반납한다 |
+  | close()는 내부적으로 flush()를 호출한다 |
 
 ## File
 
 - 가장 기본적인 입출력 장치 중 하나로 파일과 디렉터리를 다루는 클래스
-  ![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%203.png)
-  ![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%204.png)
+  ![IOStream 3](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/82b45239-c0cb-48cc-b62d-d57c55fd2912)
+  ![IOStream 4](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/ea5d8a9d-b058-46dd-830f-d90eccda404a)
 
 # 보조 스트림
 
@@ -100,9 +99,9 @@ pdf: 230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543
 
 ### 보조 스트림의 종류
 
-![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%205.png)
+![IOStream 5](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/48a02ee1-bc97-461f-ac20-7f92c90db0fb)
 
-![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%206.png)
+![IOStream 6](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/b1f2179c-2343-4b61-bc63-304e9c71772f)
 
 Buffered vs Scanner
 
@@ -117,7 +116,7 @@ Scanner 권장!
 - 객체가 가진 데이터를 순차적인 형태로 변환하는 절차: 데이터를 원활히 주고받기 위해
 - 객체를 데이터 스트림으로 만드는 것
 - 반대의 경우 역직렬화 (deserialization)
-  ![Untitled](230728%20I%20O%E1%84%8B%E1%85%AA%20Stream,%20Serialization%2040e55b7bb92543589fc0412d0813afa8/Untitled%207.png)
+  ![IOStream 7](https://github.com/yyoungl/yyoungl.github.io/assets/127117707/475bdbea-e4a9-4eac-9f85-f570acb83c9d)
 
 ### 직렬화 (serialization) 가능 클래스 만들기
 
