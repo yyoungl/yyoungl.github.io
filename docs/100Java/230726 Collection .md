@@ -6,7 +6,7 @@ description: JAVA 객체지향 Collection
 parent: Java
 ---
 
-# 230726 JAVA Collection
+# JAVA Collection
 
 생성 일시: 2023년 7월 25일 오후 4:26
 

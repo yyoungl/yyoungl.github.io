@@ -6,7 +6,7 @@ description: JAVA I/O Stream, Serialization
 parent: Java
 ---
 
-# 230728 I/O와 Stream, Serialization
+# I/O와 Stream, Serialization
 
 생성 일시: 2023년 7월 28일 오전 8:48
 
