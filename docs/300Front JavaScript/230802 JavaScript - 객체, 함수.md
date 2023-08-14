@@ -6,7 +6,10 @@ description: JavaScript 기본 - 객체, 함수
 parent: JavaScript
 ---
 
-# 230802 JavaScript
+230802
+
+
+# JavaScript
 
 생성 일시: 2023년 8월 1일 오후 8:10
 
