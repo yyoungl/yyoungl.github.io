@@ -1,7 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: yyoungl.log
 nav_order: 1
@@ -20,8 +17,10 @@ permalink: /
 
 | 프로젝트 명  | 프로젝트 설명                                 | 포지션     | 기술 스택             | 링크                                                                                                                                   |
 | ------------ | --------------------------------------------- | ---------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| 백투더퓨처   | 개발자 포트폴리오 커뮤니티 웹 서비스          | 프론트엔드 | JavaScript React CRUD | [github](https://github.com/yyoungl/elice-project1-backtothefuture)                                                                    |
+| Ssafit       | UI/UX 구현                                    | 프론트엔드 | HTML CSS BootStrap    | [github](https://github.com/yyoungl/ssafit-front)                                                                                      |
+| Ssafit       | 영상관리시스템 구축                           | 백엔드     | Java                  | [github](https://github.com/yyoungl/java1)                                                                                             |
 | 오늘채식완료 | 데이터 분석 기반 채식 장려 커뮤니티 웹 서비스 | 프론트엔드 | JavaScript React vite | [client](https://github.com/yyoungl/VegCom-elice-2nd-project-front) [server](https://github.com/minluna/Elice_2nd_Project-vegcom_back) |
+| 백투더퓨처   | 개발자 포트폴리오 커뮤니티 웹 서비스          | 프론트엔드 | JavaScript React CRUD | [github](https://github.com/yyoungl/elice-project1-backtothefuture)                                                                    |
 
 ## 기술
 
