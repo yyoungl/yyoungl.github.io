@@ -11,13 +11,11 @@ parent: Project
 {: .fs-6 .fw-300 }
 [Github](https://github.com/yyoungl/java1){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-**개발 기간** 2023/08/04
+**개발 기간** 2023/08/04 (1일)
 
 **개발 인원** 2명
 
 [이영현](https://github.com/yyoungl) [이주원](https://github.com/jooooooowon)
-
-첫 프로젝트를 했다!! json 데이터를 바탕으로 영상 목록을 보여주고, 메뉴를 선택하면 댓글과 구체적인 정보를 보여 주는 것이다. java 에서 배운 것을 기반으로 하는 프로젝트였기 때문에 ui는 console 창에서 간단히 구현했다.
 
 ### 프로젝트 개요
 
@@ -29,6 +27,10 @@ parent: Project
 1. MVC 패턴 기반 프로그램 구현
 2. 싱글톤 기반 데이터 관리 메서드 구현
 3. json 파일 데이터 자료 구조에 담기 및 관리
+
+### 사용 기술
+
+- Java 8
 
 ### 구현 과정
 
