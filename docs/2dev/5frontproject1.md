@@ -91,7 +91,7 @@ JavaScript로 기능을 구현하고 데이터를 관리해 봤어야 하는데 
 
 회원 찜 영상 관리 `likeList.html`
 
-회원 친구 팔로우 관리 `follw.html`
+회원 친구 팔로우 관리 `follow.html`
 
 ### 메인 화면 - 영상 목록 조회 및 메뉴
 
