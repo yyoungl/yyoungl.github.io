@@ -80,11 +80,11 @@ main thread가 동기 코드를 실행한 후에 제어권이 돌아왔을 때 e
 
 Promise는 여러 가지 Promise를 동시에 처리할 수 있는 함수를 객체 단위로 제공함
 
-- **Promise.all()** 모든 프로미스가 fulfilled 되길 기다림  
+- `**Promise.all()**` 모든 프로미스가 fulfilled 되길 기다림  
   하나라도 에러 발생 시, 모든 프로미스 요청 중단됨
-- **Promise.allSettled()** 모든 프로미스가 settled 되길 기다림
-- **Promise.race()** 넘겨진 프로미슫르 중 하나라도 settled 되길 기다림
-- \***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***Promise.any()\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\***\*\*\*\*\***\*\*\*\*\***\*\*\*\*\*** 넘겨진 프로미스 중 하나라도 fulfilled 되길 기다림
+- `**Promise.allSettled()**` 모든 프로미스가 settled 되길 기다림
+- `**Promise.race()**` 넘겨진 프로미슫르 중 하나라도 settled 되길 기다림
+- `**Promise.any()**` 넘겨진 프로미스 중 하나라도 fulfilled 되길 기다림
 
 ### Promise chaining, nested promise
 
