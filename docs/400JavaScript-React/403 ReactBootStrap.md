@@ -42,7 +42,7 @@ ReactDOM.render(
 
 ### (3) Bootstrap 공식 문서에서 필요한 디자인의 class명 확인
 
-[##_Image|kage@oXnk0/btsrh3bzHlm/2wgiVHo79HmDthRMzy3rmK/img.png|CDM|1.3|{"originWidth":1033,"originHeight":462,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoXnk0%2Fbtsrh3bzHlm%2F2wgiVHo79HmDthRMzy3rmK%2Fimg.png)
 
 ex 초록색 버튼에 필요한 css명: `btn`과 `btn-success`
 
@@ -56,7 +56,7 @@ React JSX에서는 `className="btn btn-success"`로 작성
 <button className="btn btn-success">버튼입니다.</button>
 ```
 
-[##_Image|kage@dwrJMH/btsq1KLWxqm/DwcizYCbvv5KDsqeN4glqK/img.png|CDM|1.3|{"originWidth":131,"originHeight":54,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdwrJMH%2Fbtsq1KLWxqm%2FDwcizYCbvv5KDsqeN4glqK%2Fimg.png)
 
 # 4\. Bootstrap 이해하기 - 컴포넌트 편
 
@@ -80,15 +80,14 @@ Bootstrap은 React를 위해 이런 컴포넌트를 만들었으며, `react-boo
 
 예를 들어, 아래의 파란색 버튼은 Boostrap 컴포넌트로 다음과 같이 작성됩니다.
 
-[##_Image|kage@bm9LCm/btsq50AH7LQ/q92VS4Z9jXplr1vtqo0l90/img.png|CDM|1.3|{"originWidth":121,"originHeight":74,"style":"alignCenter"}_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbm9LCm%2Fbtsq50AH7LQ%2Fq92VS4Z9jXplr1vtqo0l90%2Fimg.png)
 ```
 <Button variant="primary">Primary</Button>
 ```
 
 **!**기존과의 차이
 
-1.  button이 대묹자인 Button으로 바뀜
+1.  button이 대문자인 Button으로 바뀜
 2.  className 대신 variant로 바뀜 (이때 variant는 `props`)
 
 위와 같은 컴포넌트를 쓰면, 이제 className마저도 작성하지 않게 됩니다.
@@ -111,8 +110,7 @@ Bootstrap은 아래와 같이 작성하면 바로 **로그인용 폼**을 만들
 
 아래 코드는 길어서 어려워 보이지만, 사실 하기 링크에서 복사하고 문구만 한국어로 수정한 코드입니다.
 
-[##_Image|kage@dSW6Ve/btsrgjMMcIl/F2usAVmJ3hGmdPEuHmJfq1/img.png|CDM|1.3|{"originWidth":318,"originHeight":304,"style":"alignCenter"}_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdSW6Ve%2FbtsrgjMMcIl%2FF2usAVmJ3hGmdPEuHmJfq1%2Fimg.png)
 ```
 function SimpleLogin() {
   return (
@@ -156,8 +154,7 @@ function SimpleLogin() {
 
 [https://react-bootstrap.github.io/components/cards/](https://react-bootstrap.github.io/components/cards/)
 
-[##_Image|kage@IN3Cz/btsrgNth1ps/WReVhCCugyNXMEWkM71bmk/img.png|CDM|1.3|{"originWidth":486,"originHeight":636,"style":"alignCenter"}_##]
-
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIN3Cz%2FbtsrgNth1ps%2FWReVhCCugyNXMEWkM71bmk%2Fimg.png)
 아래 코드에서 `Card, Card.Body, Card.Title, Card.text`라는 **총 4종류의 컴포넌트를 찾아!**
 
 ```
@@ -212,16 +209,16 @@ Form : [https://react-bootstrap.github.io/forms/overview/](https://react-bootstr
 
 Checkbox, Radios ： [https://react-bootstrap.github.io/forms/checks-radios/](https://react-bootstrap.github.io/forms/checks-radios/)
 
-[##_Image|kage@yhMo4/btsrkP5at0D/A9FAcKc5au7tQumbiVj0a1/img.png|CDM|1.3|{"originWidth":184,"originHeight":138,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyhMo4%2FbtsrkP5at0D%2FA9FAcKc5au7tQumbiVj0a1%2Fimg.png)
 
 다양한 형태의 input이 있는 Form ： [https://react-bootstrap.github.io/forms/layout/](https://react-bootstrap.github.io/forms/layout/)
 
-[##_Image|kage@nvSZT/btsrdjfqgkn/0vEJpaxXbhI7NdXPz15fT0/img.png|CDM|1.3|{"originWidth":1123,"originHeight":292,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnvSZT%2Fbtsrdjfqgkn%2F0vEJpaxXbhI7NdXPz15fT0%2Fimg.png)
 
 드롭다운 버튼： [https://react-bootstrap.github.io/components/dropdowns/](https://react-bootstrap.github.io/components/dropdowns/)
 
-[##_Image|kage@cqOvIy/btsrkPRDtaS/9gcnQTTbOqF9WbkEni8XFK/img.png|CDM|1.3|{"originWidth":199,"originHeight":178,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqOvIy%2FbtsrkPRDtaS%2F9gcnQTTbOqF9WbkEni8XFK%2Fimg.png)
 
-네비게이션 바 (= 헤더）： [https://react-bootstrap.github.io/components/navs/](https://react-bootstrap.github.io/components/navs/)
+네비게이션 바 = 헤더： [https://react-bootstrap.github.io/components/navs/](https://react-bootstrap.github.io/components/navs/)
 
-[##_Image|kage@QfcQE/btsrgmbCWPm/F2tQBUJcDnWxpPzD4CgtEk/img.png|CDM|1.3|{"originWidth":304,"originHeight":68,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQfcQE%2FbtsrgmbCWPm%2FF2tQBUJcDnWxpPzD4CgtEk%2Fimg.png)
