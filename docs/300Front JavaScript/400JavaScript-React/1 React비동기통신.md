@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JavaScript React에서의 비동기 통신
+title: React에서의 비동기 통신
 nav_order: 1
 description: JavaScript React에서의 비동기 통신
 parent: React
