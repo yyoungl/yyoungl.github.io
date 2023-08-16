@@ -4,6 +4,7 @@ title: JavaScript React에서의 비동기 통신
 nav_order: 1
 description: JavaScript React에서의 비동기 통신
 parent: React
+grand_parent: JavaScript
 ---
 
 # 리액트에서의 비동기 통신
