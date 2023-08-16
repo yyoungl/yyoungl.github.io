@@ -23,11 +23,11 @@ parent: React
 - SPA에서는 자체적으로 데이터를 갖고, 서버와의 동기화가 필요한 데이터만을 처리  
   그 외의 데이터는 Client만의 데이터로 유지
 
-[##_Image|kage@YSeTP/btsrfjsH2nT/aQK9TJOB7zQKgBHCRBakk0/img.png|CDM|1.3|{"originWidth":851,"originHeight":773,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FYSeTP%2FbtsrfjsH2nT%2FaQK9TJOB7zQKgBHCRBakk0%2Fimg.png)
 
 MPA는 서버에서 데이터를 관리함. 그래서 클라이언트와 서버의 데이터 상태가 같음
 
-[##_Image|kage@bUrHpv/btsq8JS06jv/lbIgfsmTqpd4XgOgX6pWFK/img.png|CDM|1.3|{"originWidth":830,"originHeight":763,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUrHpv%2Fbtsq8JS06jv%2FlbIgfsmTqpd4XgOgX6pWFK%2Fimg.png)
 
 서버는 데이터를 유지하지 않거나 유지하더라도 보안 정보만 유지함  
 클라이언트에서 페이지를 빌드하는 상태를 유지  
@@ -62,7 +62,7 @@ MPA는 서버에서 데이터를 관리함. 그래서 클라이언트와 서버�
 - 변경이 잦다면, 데이터의 변경 시점을 파악해 최적화  
   ex 일정 시간마다 서버에 저장, 타이핑 5초 후 서버에 저장
 
-[##_Image|kage@u9x1b/btsrjqK8cqJ/fUb5ctK9sji33vGvAKyNXK/img.png|CDM|1.3|{"originWidth":1178,"originHeight":798,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fu9x1b%2FbtsrjqK8cqJ%2FfUb5ctK9sji33vGvAKyNXK%2Fimg.png)
 
 ## Prop Drilling
 
@@ -71,7 +71,7 @@ MPA는 서버에서 데이터를 관리함. 그래서 클라이언트와 서버�
 - Context API 등을 활용, 필요한 컴포넌트에서 데이터를 가져올 수 있음
 - 컴포넌트 간의 결합성을 낮춤
 
-[##_Image|kage@u3E03/btsrgmW1FgN/dFMNxbDABQYoo3jxETX7I0/img.png|CDM|1.3|{"originWidth":1163,"originHeight":751,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fu3E03%2FbtsrgmW1FgN%2FdFMNxbDABQYoo3jxETX7I0%2Fimg.png)
 
 # 03 Flux Pattern
 
@@ -102,7 +102,7 @@ MPA는 서버에서 데이터를 관리함. 그래서 클라이언트와 서버�
 
 ## Flux 구조
 
-[##_Image|kage@ngA68/btsrcrxN3wR/gSk283kRLQ6LV8xOOMJLnK/img.png|CDM|1.3|{"originWidth":1187,"originHeight":468,"style":"alignCenter"}_##]
+![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FngA68%2FbtsrcrxN3wR%2FgSk283kRLQ6LV8xOOMJLnK%2Fimg.png)
 
 - Action → Dispatcher → Store → View 순으로 데이터가 흐름  
   Reducer → Action → Store → View → Action …

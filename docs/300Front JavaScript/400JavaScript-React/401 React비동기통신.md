@@ -50,7 +50,7 @@ main thread가 동기 코드를 실행한 후에 제어권이 돌아왔을 때 e
 
 **diagram**
 
-[##_Image|kage@bCe9OW/btsrhFV32fg/fhEwl7vI3x8r6pwVwM3Lh1/img.png|CDM|1.3|{"originWidth":1084,"originHeight":554,"style":"alignCenter"}_##]
+![react-비동기](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbCe9OW%2FbtsrhFV32fg%2FfhEwl7vI3x8r6pwVwM3Lh1%2Fimg.png)
 
 ## 03 Promise
 
