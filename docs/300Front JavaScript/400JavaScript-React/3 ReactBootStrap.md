@@ -4,6 +4,7 @@ title: React에서 Bootstrap CSS 사용하기
 nav_order: 3
 description: React Bootstrap
 parent: React
+grand_parent: JavaScript
 ---
 
 # React에서 Bootstrap CSS 사용하기
