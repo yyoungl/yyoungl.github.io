@@ -4,11 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: JavaScript
-nav_order: 300
-description: "JavaScript 문법, 비동기 등"
+title: React
+nav_order: 400
+description: "JavaScript React"
 has_children: true
-permalink: /docs/JavaScript
+permalink: /docs/JavaScript/React
 ---
 
-JavaScript 학습 내용입니다.
+JavaScript React 관련 학습 내용입니다.

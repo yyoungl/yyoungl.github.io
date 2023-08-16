@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 리액트 상태 관리
+title: React 상태 관리
 nav_order: 402
-description: 리액트 상태 관리
-parent: JavaScript React
+description: React 상태 관리
+parent: React
 ---
 
 # 리액트 상태 관리

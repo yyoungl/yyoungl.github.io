@@ -3,7 +3,7 @@ layout: default
 title: JavaScript React에서의 비동기 통신
 nav_order: 401
 description: JavaScript React에서의 비동기 통신
-parent: JavaScript React
+parent: React
 ---
 
 # 리액트에서의 비동기 통신

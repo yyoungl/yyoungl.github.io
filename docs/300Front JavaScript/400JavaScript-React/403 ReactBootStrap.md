@@ -2,8 +2,8 @@
 layout: default
 title: React에서 Bootstrap CSS 사용하기
 nav_order: 402
-description: 리액트 상태 관리
-parent: JavaScript React
+description: React Bootstrap
+parent: React
 ---
 
 # React에서 Bootstrap CSS 사용하기
