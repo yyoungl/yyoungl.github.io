@@ -1,7 +1,7 @@
 ---
 layout: default
 title: React에서 Bootstrap CSS 사용하기
-nav_order: 402
+nav_order: 3
 description: React Bootstrap
 parent: React
 ---
@@ -81,6 +81,7 @@ Bootstrap은 React를 위해 이런 컴포넌트를 만들었으며, `react-boo
 예를 들어, 아래의 파란색 버튼은 Boostrap 컴포넌트로 다음과 같이 작성됩니다.
 
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbm9LCm%2Fbtsq50AH7LQ%2Fq92VS4Z9jXplr1vtqo0l90%2Fimg.png)
+
 ```
 <Button variant="primary">Primary</Button>
 ```
@@ -111,6 +112,7 @@ Bootstrap은 아래와 같이 작성하면 바로 **로그인용 폼**을 만들
 아래 코드는 길어서 어려워 보이지만, 사실 하기 링크에서 복사하고 문구만 한국어로 수정한 코드입니다.
 
 ![image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdSW6Ve%2FbtsrgjMMcIl%2FF2usAVmJ3hGmdPEuHmJfq1%2Fimg.png)
+
 ```
 function SimpleLogin() {
   return (
