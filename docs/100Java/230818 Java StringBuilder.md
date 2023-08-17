@@ -8,6 +8,10 @@ parent: Java
 
 # Java StringBuilder Class
 
+문자열 폭발 문제에서 날 구해준 StringBuilder 클래스에 대한 오라클 문서를 살펴보았다.
+
+전에 짝꿍이 쓰는 걸 봤는데 이번에 어떤 메소드가 있는지 제대로 알아보았다.
+
 # StringBuilder
 
 ## StringBuilder란
