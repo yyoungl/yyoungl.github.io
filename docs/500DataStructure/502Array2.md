@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자료구조 Array(2) - 검색, 선택 정렬, 카운팅 정렬
-nav_order: 501
+nav_order: 502
 description:
 parent: 자료구조
 ---
