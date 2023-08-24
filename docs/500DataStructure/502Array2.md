@@ -57,11 +57,11 @@ parent: 자료구조
 
 ### ex) 2를 검색하는 경우
 
-![Alt text](Untitled.png)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcghado%2Fbtsr5Y8iGWG%2Fk4IPPBa20ppLt6CHZPPUMK%2Fimg.png)
 
 ### ex) 8을 검색하는 경우
 
-![Alt text](<Untitled 1.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc2K6K5%2Fbtsr5dEDJcr%2FiAO2IZAPSjKhUP7HBFLI10%2Fimg.png)
 
 ### 찾고자 하는 원소의 순서에 따라 비교 회수가 결정됨
 
@@ -99,11 +99,11 @@ sequentialSearch(int[] a, int n, int key)
 
 ### 예) 11을 검색하는 경우
 
-![Alt text](<Untitled 2.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdbqDwJ%2Fbtsr0X3m5IO%2F5EM6imMo1jI8Mfrbt2Vr51%2Fimg.png)
 
 ### 예) 10을 검색하는 경우
 
-![Alt text](<Untitled 3.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbvMaIO%2Fbtsr5gnQ1DH%2FYFrFhTX6T4h1OzwmulP041%2Fimg.png)
 
 ### 찾고자 하는 원소의 순서에 따라 비교 회수가 결정됨
 
@@ -144,11 +144,11 @@ sequentialSearch2(int[] a, int n, int key)
 
 **예) 이진 검색으로 7을 찾는 경우**
 
-![Alt text](<Untitled 4.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FwjzIT%2Fbtsr65TDMFR%2FE9sktfW3KHn6e9DZpGNP0K%2Fimg.png)
 
 **예) 이진 검색으로 20을 찾는 경우**
 
-![Alt text](<Untitled 5.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTeaNE%2FbtsrVuBdVzk%2FuSNkP1B0zbDlB68837Kp61%2Fimg.png)
 
 ## 구현
 
@@ -221,7 +221,7 @@ sequentialSearch2(int[] a, int n, int key)
 
 - 왼쪽과 같이 흩어진 당구공을 오른쪽 그림처럼 정리한다고 하자. 어떻게 하겠는가?
     
-![Alt text](<Untitled 6.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FxKhfk%2FbtsrTRXJGNd%2Fk6kDg3F5ZxkBeUS0DARny1%2Fimg.png)
     
 - 많은 사람들은 당구대 위에 있는 공 중 가장 작은 숫자의 공부터 골라서 차례대로 정리할 것이다. 이것이 바로 선택 정렬이다.
 - **주어진 자료등 줄 가장 작은 값의 원소부터 차례대로 선택하여 위치를 교환하는 방식**
@@ -238,35 +238,35 @@ sequentialSearch2(int[] a, int n, int key)
 - O(n^2)
 1. 주어진 리스트에서 최소값을 찾는다
     
-![Alt text](<Untitled 7.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FK0KTr%2Fbtsr5K3f6xL%2F8CHxhwHt6eMWxr00TgtKfK%2Fimg.png)
     
 2. 리스트의 맨 앞에 위치한 값과 교환한다
     
-![Alt text](<Untitled 8.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcvzeis%2FbtsrYLJrDkA%2F5qva6qJktivN16qpDSxSSK%2Fimg.png)
     
 3. 미정렬 리스트에서 최소값을 찾는다
     
-![Alt text](<Untitled 9.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeT5TKW%2FbtsrYNtICr0%2FgHs0KY6iuYNw7g6ktmbYR1%2Fimg.png)
     
 4. 리스트의 맨 앞에 위치한 값과 교환한다
     
-![Alt text](<Untitled 10.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FBBWT5%2Fbtsr4mhxp8N%2FP6PK4nlxw8lZ4dksPzngo0%2Fimg.png)
     
 5. 미정렬 리스트에서 최소값을 찾는다
     
-![Alt text](<Untitled 11.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcGP6zV%2FbtsrYAA6TI7%2FyehhkEbyyCBhQfr8TK3vT0%2Fimg.png)
     
 6. 리스트의 맨 앞에 위치한 값과 교환한다
     
-![Alt text](<Untitled 12.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXbVCx%2FbtsrUnB4JjB%2FrPKDGoC4oUp8aATYkiwTL1%2Fimg.png)
     
 7. 미정렬 리스트에서 최소값을 찾는다
     
-![Alt text](<Untitled 13.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbAgwol%2Fbtsr5ZsAOnl%2FbEu6X8Hc8qfzZGASknznk0%2Fimg.png)
     
 8. 리스트의 맨 앞에 위치한 값과 교환한다
     
-![Alt text](<Untitled 14.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb5LJW4%2Fbtsr5fPZrK6%2Ftl7WASkebrh4rnXpf0Yixk%2Fimg.png)
     
 - 미정렬 원소가 하나 남은 상황에서는 마지막 원소가 가장 큰 값을 갖게 되므로, 실행을 종료하고 선택 정렬이 완료된다
 
@@ -321,7 +321,7 @@ SelectionSort(int[] nums, int N) { // nums : 정렬할 배열, N: 배열 크기
 
 - Data에서 각 항목들의 발생 회수를 세고, 정수 항목들로 직접 인덱스 되는 카운트 배열 counts에 저장한다
 
-![Alt text](<Untitled 15.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FerdHzV%2FbtsrTOzXb2E%2FdBJHq1GpRL7W226khMWK11%2Fimg.png)
 
 **2단계** 누적합 구하기
 
@@ -329,35 +329,35 @@ SelectionSort(int[] nums, int N) { // nums : 정렬할 배열, N: 배열 크기
 
 - `counts[1]`을 감소시키고 Temp에 1을 삽입한다
     
-![Alt text](<Untitled 16.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbmOA3e%2FbtsrYz90RzW%2FfiIYL5kcCWDFk79qWKYw8k%2Fimg.png)
     
 - `counts[4]`를 감소시키고 Temp에 4를 삽입한다
     
-![Alt text](<Untitled 17.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdkpeKw%2FbtsrTRckkwY%2FxaqGlXBTfbFGBophrByyN1%2Fimg.png)
     
 - `counts[2]`를 감소시키고 Temp에 2를 삽입한다.
     
-![Alt text](<Untitled 18.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F2SRRd%2FbtsrYAunz9m%2FobnmS67zhxslrGmMlmUUqk%2Fimg.png)
     
 - `counts[1]`을 감소시키고 Temp에 1을 삽입한다.
     
-![Alt text](<Untitled 19.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Foonb0%2FbtsrZwZjnNG%2FfkMRvYhQK37VbFJKs7poW1%2Fimg.png)
     
 - `counts[3]`을 감소시키고 Temp에 3을 삽입한다.
     
-![Alt text](<Untitled 20.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSZ2EH%2Fbtsr657aUDz%2FTHQtyvp0pS1cDPzz1AB3AK%2Fimg.png)
     
 - `counts[1]`을 감소시키고 Temp에 1을 삽입한다.
     
-![Alt text](<Untitled 21.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FC9S9R%2Fbtsr5MfIUnt%2FNbbhki2JYsEwqrkAViW2uk%2Fimg.png)
     
 - `counts[4]`를 감소시키고 Temp에 4를 삽입한다.
     
-![Alt text](<Untitled 22.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbRNyaA%2FbtsrTsjkOpW%2FYFXaoVdsDy5kfAczCFKSBk%2Fimg.png)
     
 - `counts[0]`을 감소시키고 Temp에 0을 삽입한다.
     
-![Alt text](<Untitled 23.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FciWvr1%2FbtsrUuunPSm%2F2KhSDO1rH5qaTA6HZQWBak%2Fimg.png)
     
 - Temp 업데이트 완료하고 정렬 작업을 종료한다.
 
@@ -389,22 +389,22 @@ for i from n-1 to 0
 
 - **같은 값을 가지는 복수의 원소들이 정렬 후에도 정렬 전과 같은 순서를 가진다**
     
-![Alt text](<Untitled 24.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdZRnnP%2FbtsrTrdEtrL%2FXsV7OpwtKczoHLt8dKNnk0%2Fimg.png)
     
 
 ### 복수의 원소를 카운팅 정렬
 
 **두 번째 기준 정렬**
 
-![Alt text](<Untitled 25.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbeSmVL%2FbtsrUrLcvW8%2FK8KPM31JzVuapOcSuh5Ur1%2Fimg.png)
 
 **첫 번째 기준 정렬**
 
-![Alt text](<Untitled 26.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkyFes%2Fbtsr4JKBudi%2FqfV9YIFUaX9d8Nt8NHKt71%2Fimg.png)
 
 **정렬 끝**
 
-![Alt text](<Untitled 27.png>)
+![Array2](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FusJHg%2Fbtsr0t2yFdh%2FkkD174aV1muSuMz2PotQC1%2Fimg.png)
 
 ### 정렬 알고리즘 비교
 
