@@ -16,7 +16,7 @@ parent: Algorithm Problems
 
 마인은 곡괭이로 광산에서 광석을 캐려고 합니다. 마인은 다이아몬드 곡괭이, 철 곡괭이, 돌 곡괭이를 각각 0개에서 5개까지 가지고 있으며, 곡괭이로 광물을 캘 때는 피로도가 소모됩니다. 각 곡괭이로 광물을 캘 때의 피로도는 아래 표와 같습니다.
 
-[##_Image|kage@ciqytr/btsrBqxZI9E/MA3gykYtr5JtA92HXxKkK0/img.png|CDM|1.3|{"originWidth":466,"originHeight":232,"style":"alignCenter"}_##]
+![광물](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fciqytr%2FbtsrBqxZI9E%2FMA3gykYtr5JtA92HXxKkK0%2Fimg.png)
 
 예를 들어, 철 곡괭이는 다이아몬드를 캘 때 피로도 5가 소모되며, 철과 돌을 캘 때는 피로도가 1씩 소모됩니다. 각 곡괭이는 종류에 상관없이 광물 5개를 캔 후에는 더이상 사용할 수 없습니다.
 
