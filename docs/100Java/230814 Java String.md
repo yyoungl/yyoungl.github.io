@@ -32,7 +32,7 @@ parent: Java
 - String 클래스를 사용한다
 - `String str = "abc"; // 또는 String str = new String("abc");`
 - 문자열 처리에 필요한 연산을 연산자, 메소드 형태로 제공한다
-  - `+`, `lenght()`, `replace()`, `split()`, `substring()`, …
+  - `+`, `length()`, `replace()`, `split()`, `substring()`, …
 
 ### C와 Java의 String 처리의 기본적인 차이점
 
