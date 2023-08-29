@@ -2,7 +2,6 @@
 layout: default
 title: 프로그래머스2 광물 캐기 Java
 nav_order: 2104
-description:
 parent: Algorithm Problems
 ---
 
@@ -23,10 +22,10 @@ parent: Algorithm Problems
 
 마인은 다음과 같은 규칙을 지키면서 최소한의 피로도로 광물을 캐려고 합니다.
 
--   사용할 수 있는 곡괭이중 아무거나 하나를 선택해 광물을 캡니다.
--   한 번 사용하기 시작한 곡괭이는 사용할 수 없을 때까지 사용합니다.
--   광물은 주어진 순서대로만 캘 수 있습니다.
--   광산에 있는 모든 광물을 캐거나, 더 사용할 곡괭이가 없을 때까지 광물을 캡니다.
+- 사용할 수 있는 곡괭이중 아무거나 하나를 선택해 광물을 캡니다.
+- 한 번 사용하기 시작한 곡괭이는 사용할 수 없을 때까지 사용합니다.
+- 광물은 주어진 순서대로만 캘 수 있습니다.
+- 광산에 있는 모든 광물을 캐거나, 더 사용할 곡괭이가 없을 때까지 광물을 캡니다.
 
 즉, 곡괭이를 하나 선택해서 광물 5개를 연속으로 캐고, 다음 곡괭이를 선택해서 광물 5개를 연속으로 캐는 과정을 반복하며, 더 사용할 곡괭이가 없거나 광산에 있는 모든 광물을 캘 때까지 과정을 반복하면 됩니다.
 
@@ -34,24 +33,24 @@ parent: Algorithm Problems
 
 ### 제한사항
 
--   `picks`는 \[dia, iron, stone\]과 같은 구조로 이루어져 있습니다.
-    -   0 ≤ dia, iron, stone ≤ 5
-    -   dia는 다이아몬드 곡괭이의 수를 의미합니다.
-    -   iron은 철 곡괭이의 수를 의미합니다.
-    -   stone은 돌 곡괭이의 수를 의미합니다.
-    -   곡괭이는 최소 1개 이상 가지고 있습니다.
--   5 ≤ `minerals`의 길이 ≤ 50
-    -   `minerals`는 다음 3개의 문자열로 이루어져 있으며 각각의 의미는 다음과 같습니다.
-    -   diamond : 다이아몬드
-    -   iron : 철
-    -   stone : 돌
+- `picks`는 \[dia, iron, stone\]과 같은 구조로 이루어져 있습니다.
+  - 0 ≤ dia, iron, stone ≤ 5
+  - dia는 다이아몬드 곡괭이의 수를 의미합니다.
+  - iron은 철 곡괭이의 수를 의미합니다.
+  - stone은 돌 곡괭이의 수를 의미합니다.
+  - 곡괭이는 최소 1개 이상 가지고 있습니다.
+- 5 ≤ `minerals`의 길이 ≤ 50
+  - `minerals`는 다음 3개의 문자열로 이루어져 있으며 각각의 의미는 다음과 같습니다.
+  - diamond : 다이아몬드
+  - iron : 철
+  - stone : 돌
 
 ### 입출력 예
 
-| picks | minerals | result |
-| --- | --- | --- |
-| \[1, 3, 2\] | \["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"\] | 12 |
-| \[0, 1, 1\] | \["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"\] | 50 |
+| picks       | minerals                                                                                                     | result |
+| ----------- | ------------------------------------------------------------------------------------------------------------ | ------ |
+| \[1, 3, 2\] | \["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"\]                              | 12     |
+| \[0, 1, 1\] | \["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"\] | 50     |
 
 ## 접근 방법
 
