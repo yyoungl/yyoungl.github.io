@@ -13,7 +13,7 @@ parent: Project
 
 엘리스 AI 7기 2차 프로젝트를 진행하면서 인피니트 스크롤을 구현했다. 시간이 꽤 지났지만 도전했던 부분들에 대해 하나씩 써보려 한다. 첫 번째로 가장 기억에 남는 무한 스크롤이다.
 
-### **프로젝트 내 적용된 파일들**
+### **프로젝트 내 적용된 파일들 - github 내 파일로 이동**
 
 [전체 게시물 페이지](https://github.com/yyoungl/VegCom-elice-2nd-project-front/blob/master/src/pages/story/story.jsx)
 
