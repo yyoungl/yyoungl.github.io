@@ -5,13 +5,15 @@ nav_order: 6
 parent: Project
 ---
 
-# Cursor based Pagination - Infinite Scroll 구현 (React, Scroll Event)
+# **Cursor based Pagination - Infinite Scroll 구현 (React, Scroll Event)**
+
+커서 기반 페이지네이션 구현 과정 - 스크롤 탐지 이벤트로 무한 스크롤 페이지 만들기
 
 [엘리스 AI트랙 7기 2차 프로젝트: 채식 장려 커뮤니티 <오채완> (1)](https://letusgrow.tistory.com/25)
 
 엘리스 AI 7기 2차 프로젝트를 진행하면서 인피니트 스크롤을 구현했다. 시간이 꽤 지났지만 도전했던 부분들에 대해 하나씩 써보려 한다. 첫 번째로 가장 기억에 남는 무한 스크롤이다.
 
-### 프로젝트 내 적용된 파일들
+### **프로젝트 내 적용된 파일들**
 
 [전체 게시물 페이지](https://github.com/yyoungl/VegCom-elice-2nd-project-front/blob/master/src/pages/story/story.jsx)
 
@@ -19,15 +21,11 @@ parent: Project
 
 [게시물 상세 - 댓글 무한 스크롤](https://github.com/yyoungl/VegCom-elice-2nd-project-front/blob/master/src/components/post/postdetail.jsx)
 
-# Cursor based Pagination - Infinite Scroll, Scroll Event
-
-커서 기반 페이지네이션 구현 과정 - 스크롤 탐지 이벤트로 무한 스크롤 페이지 만들기
-
 ![결과물 - 용량 이슈로 스크롤까지는 안 보이지만 푸터가 등장하자마자 새로운 글이 뜬다!!](https://blog.kakaocdn.net/dn/bmxgP1/btstgjjODuR/igOrWuVDxFK6eHWKdisss0/img.gif)
 
 결과물 - 용량 이슈로 스크롤까지는 안 보이지만 푸터가 등장하자마자 새로운 글이 뜬다!!
 
-## Contents
+## **Contents**
 
 1. 구현 배경
 2. 논리 구조
@@ -36,7 +34,7 @@ parent: Project
 5. Cursor Based Pagination
 6. 마무리 & Full Solution
 
-# 1) 구현 배경
+# **1) 구현 배경**
 
 2차 프로젝트를 하던 중 사용자들이 포스트를 올리는 피드 페이지 `story.jsx` 를 생성했다. 사진이 꼭 들어있어야 글을 올릴 수 있었기 때문에 포스트가 점점 늘면 페이지 로드 후 한꺼번에 불러오기에는 무리가 있었다.
 
@@ -44,7 +42,7 @@ parent: Project
 
 인터넷에 검색해 보면 구현할 수 있는 라이브러리 같은 게 많다고 들었지만 직접 생각하고 만들어 보려고 하루를 꼬박 썼다.
 
-# 2) 논리 구조
+# **2) 논리 구조**
 
 논리 구조는 생각해 보면 간단하다.
 
@@ -53,7 +51,7 @@ parent: Project
 3. 이전에 있었던 게시물 목록 + 새로 받아온 게시물 목록
 4. server에서 더이상 게시물이 없다는 신호를 보내면 보여줄 글이 더 없다는 뜻이므로 요청을 멈춘다.
 
-# 3) offset 방식 vs cursor 방식
+# **3) offset 방식 vs cursor 방식**
 
 매일 피드백을 주시던 코치님께서 인피니트 스크롤을 구현할 때, 데이터를 처리하는 과정에서 오프셋을 주고받으며 구현하면 된다고 하셨다. 하지만 우리의 DB 구조상 오프셋을 가지고 구현하기에는 문제가 있었다.
 
@@ -61,7 +59,7 @@ parent: Project
 
 초반에 백엔드 팀원들과 함께 이야기하면서 서로 offset과 cursor 방식으로 할 거라고 다르게 생각하고 있어서 그것부터 확실하게 정해야 했다. ㅋㅋㅋㅋ
 
-### offset 방식
+### **offset 방식**
 
 offset 방식의 경우 클라이언트에서 가져오고 싶은 데이터의 시작 위치를 나타내는 `offset`과 전달받길 원하는 데이터의 개수 `limit`을 전달하여 `limit` 크기를 가지는 배열을 전달받는 방식이다.
 
@@ -75,13 +73,13 @@ offset 방식을 사용할 때 발생할 수 있는 문제점으로, offset은 �
 
 **게시물 전체 목록의 길이가 변해도 달라지지 않는 값이 필요하다.**
 
-### cursor 방식
+### **cursor 방식**
 
 cursor 방식은 **마지막으로 받은 게시물의 id**만을 가지고 있다가, 이를 바탕으로 다음 게시물을 요청하는 것이다. 우리는 게시물의 id 작성 시간순으로 부여했기 때문에 서버에서는 마지막 게시물의 id보다 큰 id (마지막 커서의 게시물보다 늦게 작성된 게시물) 를 갖는 게시물들을 순차적으로 보내 주면 된다.
 
 이를 통해 데이터가 더 있는지, 없는지도 판단할 수 있다. 만약 더 받을 데이터가 없을 경우 response에 -1 (게시물의 인덱스로 가질 수 없는 값) 을 보냄으로써 GET 요청을 멈추는 방식으로 구현했다.
 
-# 4) Scroll Event
+# **4) Scroll Event**
 
 페이지의 마지막을 감지하고, 마지막을 감지했을 때, 그리고 페이지가 처음 로드되었을 때 GET 요청을 보내는 Hook, 이때 `nextCursor`의 초기값을 0으로 설정해 두고 요청을 보냈다.
 
@@ -109,7 +107,7 @@ useEffect(() => {
 }, [fetchPost]);
 ```
 
-# 5) Cursor Based Pagination
+# **5) Cursor Based Pagination**
 
 `fetchPost` Hook의 로직은 크게 이렇게 이루어져 있다. 우리는 게시물을 5개씩 받아와서 보냈고, 댓글의 경우 10개씩 받아와서 보냈다.
 
@@ -170,7 +168,7 @@ useEffect(() => {
 
 더 이상 보여줄 글이 없음에도 요청이 계속 들어가서 아무것도 없는 리스트로 갱신되어 화면에 아무것도 안 나오기도 하고, 페이지 로드 후 GET 요청을 2번 보내서 혼자 10개의 글이 나오기도 했다…. 커서와 의존성 이슈였던 걸로 기억한다.
 
-# 6) 마무리 & Full Solution
+# **6) 마무리 & Full Solution**
 
 코치님께서 이 코드 자체가 이상적인 코드는 아니라고 하셨지만, ‘주문하면 나오는 팀’ 이라는 피드백을 듣기도 했다. ㅎㅎ 만들고자 하는 것에 대해 어떻게 하면 구현할 수 있을지, 그리고 만드는 로직을 생각해 보고 직접 만들어 보며 마음처럼 되지 않는 과정도 겪어 보았다. 1차 프로젝트에서도 느꼈지만, 시행착오를 겪는 시간이 있기 때문에 이후에 같은 기능을 구현할 때 더 효율적으로 할 수 있게 성장하는 것 같다.
 
