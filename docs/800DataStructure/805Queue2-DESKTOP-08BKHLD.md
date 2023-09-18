@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자료구조 Queue - 원형 큐, 우선순위 큐
-nav_order: 506
+nav_order: 805
 parent: 자료구조
 ---
 
