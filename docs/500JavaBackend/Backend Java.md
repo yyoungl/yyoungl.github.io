@@ -4,11 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: 자료구조
+title: Java Backend
 nav_order: 500
-description: "Java 자료구조 학습"
+description: "Java 백엔드 개발 - Spring 등"
 has_children: true
-permalink: /docs/DataStructure
+permalink: /docs/JavaBack
 ---
 
-JAVA 기본 문법 및 객체지향 프로그래밍 학습 내용을 담습니다.
+Java 기반 백엔드 개발 학습 내용입니다.

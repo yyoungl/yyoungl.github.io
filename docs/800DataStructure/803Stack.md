@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자료구조 Stack - 정의, 특성, 구현
-nav_order: 504
+nav_order: 803
 description: 이차원 배열
 parent: 자료구조
 ---
