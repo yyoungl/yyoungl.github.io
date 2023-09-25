@@ -1,8 +1,7 @@
 ---
 layout: default
-title: 완전 검색 Exhaustive Search
-nav_order: 2001
-description: 완전 검색 알고리즘
+title: 탐욕 알고리즘 Greedy Algorithm
+nav_order: 2002
 parent: Algorithm
 ---
 
