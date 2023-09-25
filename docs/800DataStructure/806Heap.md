@@ -1,15 +1,14 @@
 ---
 layout: default
-title: 자료구조 Queue - 원형 큐, 우선순위 큐
+title: 자료구조 힙 Heap - 정의, 최대 힙, 최소 힙, 우선순위 큐
 nav_order: 806
 parent: 자료구조
 ---
 
-# 230824 Tree (2)
+# 230824 Heap
 
 생성 일시: 2023년 8월 24일 오전 8:46
 
-- 수식 트리
 - 힙
 
 # 힙 Heap
