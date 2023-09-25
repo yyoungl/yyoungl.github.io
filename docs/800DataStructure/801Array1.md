@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자료구조 Array(1) - 알고리즘, 배열, 버블 정렬
-nav_order: 501
+nav_order: 801
 description:
 parent: 자료구조
 ---

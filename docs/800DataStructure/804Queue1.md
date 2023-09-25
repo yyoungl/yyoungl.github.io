@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 자료구조 Queue - 정의, 특성, 선형 큐
-nav_order: 505
+nav_order: 804
 parent: 자료구조
 ---
 
