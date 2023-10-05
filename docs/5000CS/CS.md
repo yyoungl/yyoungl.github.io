@@ -5,8 +5,8 @@
 
 layout: default
 title: CS
-nav_order: 1000
+nav_order: 5000
 description: "Computer Science"
 has_children: true
-permalink: /docs/1000cs
+permalink: /docs/cs
 ---
